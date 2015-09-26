@@ -1,0 +1,14 @@
+{
+  "name": "has-nested-prop",
+  "author": "Roy Barkas",
+  "description": "checks to see if an object has one or more properties.  Properties may be infinitely nested",
+  "files": ["hasProp.js"],
+  "main": "hasProp.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Royhb/hasProp"
+  },
+  "keywords": ["nested", "properties"],
+  "license": "MIT"
+  "version": "0.0.1"
+}
