@@ -1,6 +1,11 @@
 {
-  "name": "has-nested-prop",
+  "name": "hasProperty",
   "author": "Roy Barkas",
+  "contributors": [
+    {"name": "Roy Barkas",
+     "email": "rhb@oceantracker.net",
+     "url": ""}
+  ],
   "description": "checks to see if an object has one or more properties.  Properties may be infinitely nested",
   "files": ["hasProp.js"],
   "main": "hasProp.js",
@@ -9,6 +14,6 @@
     "url": "https://github.com/Royhb/hasProp"
   },
   "keywords": ["nested", "properties"],
-  "license": "MIT"
+  "license": "MIT",
   "version": "0.0.1"
 }
