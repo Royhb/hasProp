@@ -1,16 +1,17 @@
-    var hasProp = {
-        hasProp: function (obj) {
-            var self = this;
+        function hasProp (obj) {
             var args = Array.prototype.slice.call(arguments, 1);
             for (var i = 0; i < args.length; i++) {
-                if (!self.checkProp(obj, args[i])) {
+                if (args[i].hasOwnProperty) {
+
+                }
+                if (!checkProp(obj, args[i])) {
                     return false;
                 }
             }
             return true;
-        },
+        }
 
-        checkProp: function (obj, prop) {
+        function checkProp (obj, prop) {
             var name;
             var arrNames = prop.split('.');
 
@@ -21,7 +22,7 @@
 
             return true;
         }
-    };
+
 
 module.exports = {hasProp: hasProp};
 

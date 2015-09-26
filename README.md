@@ -1,6 +1,8 @@
 # hasProperty
 Utility to check for existence of properties within objects in Javascript / Node.js
 
+Checks for existence of a property name in any object.  Can check Objects, Strings, Numbers, Arrays or Booleans.
+
 ## Install
     npm install hasProperty
 
@@ -17,7 +19,7 @@ Utility to check for existence of properties within objects in Javascript / Node
         console.log('sampleObj.test2.subProp1 exists');
     }
 
-hasProp can check for more than 1 properties in an object.
+hasProp can check for more than 1 property in an object.
 
     var hasProp = require('hasProperty').hasProp;
     var sampleObj = {
